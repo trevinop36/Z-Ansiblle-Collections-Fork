@@ -496,7 +496,7 @@
               state: present
               replace: True
 
-      - name: Allocate IMS RECON and WADS Clusters # Works fine
+      - name: Allocate IMS RECON and WADS Clusters
         zos_mvs_raw:
           program_name: idcams
           auth: yes
